@@ -1,6 +1,7 @@
 # The Unofficial Social Blade Extension
 
 ## Introduction
+An unofficial browser extension for Social Blade, that allows you to track your YouTube stats without leaving your current page.
 
 ## Install 
 [![Download from the Google Chrome Web Store](https://verifiedjoseph.com/images/install/153px/chrome.png)](https://chrome.google.com/webstore/detail/the-unofficial-social-bla/dmjgiaijdmgheegfinhgplldehidfbcm)
