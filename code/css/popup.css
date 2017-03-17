@@ -1,0 +1,92 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}strong,b{font-weight:bold}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{box-sizing:border-box}html,html a{-webkit-font-smoothing:antialiased;text-shadow:1px 1px 1px rgba(0,0,0,0.004)}*,*:before,*:after{box-sizing:inherit}
+
+body {
+	line-height: 1;
+    font: 12px arial,sans-serif;
+	font-size : 14px;
+	color: #505050;
+	background-color: #FFF;
+	max-height: 235px;
+}
+
+a:link { color:#202020; white-space: nowrap; text-decoration: none;}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: underline; color:black; }
+
+.left {float:left;}
+.right {float:right;}
+.clear {clear:both;}
+
+.wrapper {
+	margin: 0 auto;
+	background: white;
+    width: 220px;
+    position: relative;
+}
+.header {
+	width: 100%;
+	padding: 5px 0;
+	color:white;
+	background: #222;
+	text-align: center;
+}
+
+
+#error {
+	display:none;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(80, 69, 61, 0.9);
+    text-align: center;
+    color: white;
+    height: 135px;
+    font-weight: 700;
+    padding: 15px;
+	z-index:100;
+}
+
+.error-options {
+	position: absolute;
+	bottom:4px;
+	left: 0px;
+}
+
+.error-button {
+	width:80px;
+	text-align: center;
+	padding:4px;
+    padding-bottom: 0px;
+}
+
+.error-button.one  {padding-right: 5px;}
+
+.error-button > span {
+	background-color: #f5f5f5;
+    border: 1px solid #ccc;
+	padding:2px;
+    width: 73px;
+    display: inline-block;
+	cursor: pointer;
+    color: black;
+    font-weight: normal;
+}
+
+#iframe {
+	position: relative;
+}
+
+.iframe-title {
+	position: absolute;
+    top: 2px;
+	width: 200px;
+    height: 20px;
+    /*left: 38px;*/
+    cursor: pointer;
+}
+
+.options  {
+	padding:2px;
+	font-size:13px;
+	width: 50px;
+	cursor: pointer;
+}

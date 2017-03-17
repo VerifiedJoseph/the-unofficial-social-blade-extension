@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Options</title>
+		<style>
+			body: { padding: 10px; }
+			input[type="checkbox"] { margin-bottom: 4px; }
+			div {padding:4px 0px;}
+			.left {float:left;}
+			div.clear {clear:both; padding:0px;}
+			div.save-box {padding:0px;}
+			div#status {padding-left:5px;}
+		</style>
+</head>
+
+<body>
+	<h2>Channel User name or ID</h2>
+	<div>
+		<label>
+			<div>
+				<input type="text" placeholder="Channel 1" id="channel_1"/>
+			</div>
+			<div>
+				<input type="text" placeholder="Channel 2" id="channel_2"/>
+			</div>
+		</label>
+	</div>
+	<h2>Not sure what to enter?</h2>
+	<p>Visit your channel's page on Social Blade, then look at the address bar and copy the part of the URL that comes after socialblade.com/youtube/user/ in to the input box above.</p>
+	<p>
+		Examples :
+		<ul>
+			<li>socialblade.com/youtube/user/<strong>SocialBlade</strong></li>
+			<li>socialblade.com/youtube/user/<strong>UCl6vWwMCjufI8OPtOInHf0g</strong></li>
+		</ul>
+		The following URL parts will <strong>not</strong> work  :
+		<ul>
+			<li>socialblade.com/youtube/c/<strong>echo442studios</strong></li>
+		</ul>
+	</p>
+	<div class="save-box">
+		<div class="left">
+			<button id="save">Save</button>
+		</div>
+		<div class="left">
+			<div id="status"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<script src="js/options.js"></script>
+</body>
+</html>

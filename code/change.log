@@ -1,0 +1,54 @@
+[NOTE]
+[/NOTE]
+
+||--- 2016 ---||
+
+23-May-2016 --
+	Additions:
+		Following folders & files added :
+			/options_tab.html
+			/css/options.css
+			
+		Added "open_in_tab": true, to manifest.json
+		Added function display() to popup.js
+	Changes:
+		Removed jQuery library dependency from popup.js.
+		Renamed style.css to popup.css  
+		Changed options page file to options_tab.html in manifest.json
+		Changed "chrome_style": from true to false in manifest.json
+	Fixes:
+		none
+		
+22-Apr-2016 --
+	Additions:
+		Following folders & files added :
+			none
+		none
+	Changes:
+		Changed the name of the extension to 'The Unofficial Social Blade extension' as Social Blade now has a official one : https://chrome.google.com/webstore/detail/social-blade/cfidkbgamfhdgmedldkagjopnbobdmdn
+		Changed description to 'Track Your YouTube Stats without leaving your current page.'
+	Fixes:
+		none
+		
+29-Mar-2016 --
+	Additions:
+		Following folders & files added :
+			none
+		none
+	Changes:
+		none
+	Fixes:
+		Fixed bug with Social Blade page link not working in popup.js and popup.html
+		
+26-Mar-2016 --
+	Additions:
+		Following folders & files added :
+			none
+		
+		Added option of showing stats from a seconded channel to popup.html and options.html
+		Added 'Not sure what to enter?' info box to options.html
+	Changes:
+		Moved from localStorage to chrome.storage
+		Moved to extensions page option panl 
+	Fixes:
+		none
