@@ -5,7 +5,7 @@ An unofficial browser extension for Social Blade, that allows you to track your 
 
 ## Install 
 [![Download from the Google Chrome Web Store](https://cdn.verifiedjoseph.com/verifiedjoseph/images/install/153px/chrome.png)](https://chrome.google.com/webstore/detail/the-unofficial-social-bla/dmjgiaijdmgheegfinhgplldehidfbcm)
-[![Download from Opera add-ons](https://cdn.verifiedjoseph.com/images/verifiedjoseph/install/153px/opera.png)](https://addons.opera.com/en/extensions/details/social-blade/?display=en)
+[![Download from Opera add-ons](https://cdn.verifiedjoseph.com/verifiedjoseph/images/install/153px/opera.png)](https://addons.opera.com/en/extensions/details/social-blade/?display=en)
 [![Download from Firefox add-ons](https://cdn.verifiedjoseph.com/verifiedjoseph/images/install/153px/firefox.png)](https://addons.mozilla.org/en-gb/firefox/addon/unofficial-social-blade/)
 
 ## Disclaimer
