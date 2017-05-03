@@ -2,11 +2,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body {
 	line-height: 1;
-    font: 12px arial,sans-serif;
+  font: 12px arial,sans-serif;
 	font-size : 14px;
 	color: #505050;
 	background-color: #FFF;
-	max-height: 235px;
+	min-height: 135px;
 }
 
 a:link { color:#202020; white-space: nowrap; text-decoration: none;}
@@ -20,9 +20,12 @@ a:hover { text-decoration: underline; color:black; }
 .wrapper {
 	margin: 0 auto;
 	background: white;
-    width: 220px;
-    position: relative;
+  /*width: 220px;*/
+	width: 220px;
+	min-height: 135px;
+  position: relative;
 }
+
 .header {
 	width: 100%;
 	padding: 5px 0;
@@ -34,15 +37,19 @@ a:hover { text-decoration: underline; color:black; }
 
 #error {
 	display:none;
-    position: absolute;
-    width: 100%;
-    background-color: rgba(80, 69, 61, 0.9);
-    text-align: center;
-    color: white;
-    height: 135px;
-    font-weight: 700;
-    padding: 15px;
+	position: absolute;
+	width: 100%;
+	background-color: rgba(80, 69, 61, 0.9);
+	text-align: center;
+	color: white;
+	height: 135px;
+	font-weight: 700;
+	padding: 15px;
 	z-index:100;
+}
+
+#error > p {
+	text-shadow: 1px 1px 1px rgb(33, 33, 33);
 }
 
 .error-options {
@@ -55,36 +62,39 @@ a:hover { text-decoration: underline; color:black; }
 	width:80px;
 	text-align: center;
 	padding:4px;
-    padding-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .error-button.one  {padding-right: 5px;}
 
 .error-button > span {
 	background-color: #f5f5f5;
-    border: 1px solid #ccc;
+	border: 1px solid #ccc;
 	padding:2px;
-    width: 73px;
-    display: inline-block;
+	width: 73px;
+	display: inline-block;
 	cursor: pointer;
-    color: black;
-    font-weight: normal;
+	color: black;
+	font-weight: normal;
 }
 
-#iframe {
+.iframe {
 	position: relative;
 }
 
-.iframe-title {
-	position: absolute;
-    top: 2px;
-	width: 200px;
-    height: 20px;
-    /*left: 38px;*/
-    cursor: pointer;
+.iframe-show {
+	overflow: hidden;
 }
 
-.options  {
+.iframe-link {
+	position: absolute;
+	top: 1px;
+	width: 220px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.options {
 	padding:2px;
 	font-size:13px;
 	width: 50px;
