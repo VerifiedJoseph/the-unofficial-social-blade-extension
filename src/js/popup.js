@@ -43,6 +43,7 @@
 		
 		// Iframe
 		iframe.setAttribute('src', 'http://widget.socialblade.com/widget.php?u=' + channel);
+		iframe.setAttribute('sandbox', '');
 		iframe.style.width = '220px';
 
 		 // Set diferent iframe height for Firefox (http://stackoverflow.com/a/26358856)
@@ -58,6 +59,7 @@
 		iframe.scrolling = 'no';
 		divShow.appendChild(iframe);
 		
+		// Add iframe to iframe-wrap
 		document.getElementById('iframe-wrap').appendChild(div);
  
 	}

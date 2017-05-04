@@ -1,0 +1,66 @@
+
+2.2.1 -- 04/05/17
+	Additions:
+		Added iframe sandbox attribute to createIframe() function in popup.js
+
+	Changes:
+		Removed console.log(items) from line 57 in options.js
+
+	Fixes:
+		none
+		
+		
+2.2.0 -- 03/05/17
+	Additions:
+		Added images file: 1px.png, 96.png, 64.png, 48.png, 32.png, 16.png
+
+	Changes:
+		Moved html files to html folder
+		Moved icons to icons folder
+		Removed localStorage item check from popup.js
+
+	Fixes:
+		none
+		
+2.1.0 -- 23/05/16
+	Additions:
+		Added "open_in_tab": true, to manifest.json
+		Added function display() to popup.js
+	Changes:
+		Removed jQuery library dependency from popup.js.
+		Renamed style.css to popup.css  
+		Changed options page file to options_tab.html in manifest.json
+		Changed "chrome_style": from true to false in manifest.json
+	Fixes:
+		none
+		
+2.0.2 -- 22/04/16
+	Additions:
+		none
+	Changes:
+		Changed the name of the extension to 'The Unofficial Social Blade extension'
+		Changed description to 'Track your YouTube stats without leaving your current page.'
+	Fixes:
+		none
+		
+2.0.1 -- 29/03/16
+	Additions:
+		none
+	Changes:
+		none
+	Fixes:
+		Fixed bug with Social Blade page link not working in popup.js and popup.html
+		
+2.0.0 -- 26/03/16
+	Additions:
+		Added 'Not sure what to enter?' info box to options.html
+		Added option of showing stats from a seconded channel to popup.html and options.html
+	Changes:
+		Moved from localStorage to chrome.storage
+		Moved to new extensions page option panl 
+	Fixes:
+		none
+		
+1.0.0 -- 23/06/13
+	N/A
+

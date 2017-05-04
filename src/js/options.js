@@ -54,7 +54,6 @@
 		channel_one: '',
 		channel_two: ''
 	}, function (items) {
-		console.log(items);
 
 		document.getElementById('channel_1').value = items.channel_one;
 		document.getElementById('channel_2').value = items.channel_two;
