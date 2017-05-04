@@ -1,5 +1,5 @@
 
-2.2.1 -- 04/05/17
+2.2.1 (1.0.1 Firefox) --  04/05/17
 	Additions:
 		Added iframe sandbox attribute to createIframe() function in popup.js
 
@@ -10,7 +10,7 @@
 		none
 		
 		
-2.2.0 -- 03/05/17
+2.2.0 (1.0.0 Firefox) -- 03/05/17
 	Additions:
 		Added images file: 1px.png, 96.png, 64.png, 48.png, 32.png, 16.png
 
