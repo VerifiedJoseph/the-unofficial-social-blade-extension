@@ -12,7 +12,7 @@
 	}
 	
 	/*
-		Create a Iframe
+		Create iframe
 	*/
 	function createIframe(channel) {
 		
@@ -25,11 +25,11 @@
 		// Img 1px
 		img.className = 'iframe-link';
 		img.setAttribute('src', '../images/1px.png');
-		img.setAttribute('title', 'Click to go to stats page');
+		img.setAttribute('title', 'Visit stats page for ' + channel);
 		a.appendChild(img);
 
 		// a href
-		a.href = 'http://socialblade.com/youtube/user/' + channel;
+		a.href = 'https://socialblade.com/youtube/user/' + channel;
 		a.setAttribute('target', '_blank');
 		a.className = 'iframe-title-a';
 		div.appendChild(a);
@@ -42,11 +42,11 @@
 		div.className = 'iframe';
 		
 		// Iframe
-		iframe.setAttribute('src', 'http://widget.socialblade.com/widget.php?u=' + channel);
+		iframe.setAttribute('src', 'https://widget.socialblade.com/widget?u=' + channel);
 		iframe.setAttribute('sandbox', '');
 		iframe.style.width = '220px';
 
-		 // Set diferent iframe height for Firefox (http://stackoverflow.com/a/26358856)
+		// Set different iframe height for Firefox (http://stackoverflow.com/a/26358856)
 		if (navigator.userAgent.indexOf("Firefox") !== -1) {
 			iframe.style.height = '130px';
 			
