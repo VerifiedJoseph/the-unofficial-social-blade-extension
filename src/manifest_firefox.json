@@ -7,8 +7,8 @@
 	"name": "The Unofficial Social Blade Extension",
 	"description": "Track your YouTube stats without leaving your current page.",
 	"author": "VerifiedJoseph",
-	"version": "1.0.1",
-	"version_name": "1.0.1 (Released 04/05/17)",
+	"version": "2.2.2",
+	"version_name": "2.2.2 (Released 25/07/17)",
 	"manifest_version": 2,
 	"icons": {
 		"16": "images/icons/16.png",

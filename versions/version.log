@@ -1,4 +1,15 @@
 
+2.2.2 --  25/07/17
+	Additions:
+		none
+
+	Changes:
+		Updated widget URLs to use HTTPS
+		Minor changes options page
+
+	Fixes:
+		none
+		
 2.2.1 (1.0.1 Firefox) --  04/05/17
 	Additions:
 		Added iframe sandbox attribute to createIframe() function in popup.js
