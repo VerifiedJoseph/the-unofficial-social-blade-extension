@@ -5,7 +5,6 @@ Unofficial browser extension for Social Blade that allows you to track your YouT
 
 ## Install 
 [![Download from Google Chrome Web Store](https://verifiedjoseph.com/images/install/153px/chrome.png)](https://chrome.google.com/webstore/detail/the-unofficial-social-bla/dmjgiaijdmgheegfinhgplldehidfbcm)
-[![Download from Opera add-ons](https://verifiedjoseph.com/images/install/153px/opera.png)](https://addons.opera.com/en/extensions/details/social-blade/?display=en)
 [![Download from Firefox add-ons](https://verifiedjoseph.com/images/install/153px/firefox.png)](https://addons.mozilla.org/en-gb/firefox/addon/unofficial-social-blade/)
 
 [Privacy Policy](https://verifiedjoseph.com/extension-privacy-policy)
